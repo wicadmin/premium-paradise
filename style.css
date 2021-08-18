@@ -1299,10 +1299,13 @@ li{
     }
     
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:620px){
     .banner-carousal {
-        background-size: contain;
+        background-size:cover;
         height: 38vh;
+    }
+    .contact-banner-text.contact-banner-text-2 {
+        bottom: 77px;
     }
     .sec-spacing {
         margin: -5px auto 0px auto;
@@ -1453,10 +1456,9 @@ li{
     }
     .form-slider-heading{
         max-width: unset;
+        top: -44%;
     }
-    .form-slider-heading {
-        top: -2%;
-    }
+    
     .sparkle-banner {
         
         height: 50vh;
